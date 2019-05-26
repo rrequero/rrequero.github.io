@@ -7,7 +7,7 @@ const CompressionPlugin = require('compression-webpack-plugin');
 module.exports = {
   entry: "./src/js/main.js",
   output: {
-    path: path.join(__dirname, "docs"),
+    path: path.join(__dirname, "dist"),
     filename: "[name].[hash:8].js",
     chunkFilename: "[name].[hash:8].js"
   },
