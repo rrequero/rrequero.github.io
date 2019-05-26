@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.config --progress",
-    "build": "webpack"
+    "build": "webpack",
+    "publish": "git subtree push --prefix dist origin master"
   },
   "repository": {
     "type": "git",
