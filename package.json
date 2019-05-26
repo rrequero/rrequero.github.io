@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.config --progress",
     "build": "webpack",
-    "publish": "git subtree push --prefix dist origin master"
+    "publish": "./deploy"
   },
   "repository": {
     "type": "git",
