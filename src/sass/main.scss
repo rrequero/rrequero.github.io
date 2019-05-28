@@ -1,6 +1,7 @@
 @import 'reset';
 @import 'variables';
 @import 'menu';
+@import 'card';
 
 :root {
     --bg-color: rgb(245, 246, 247);
@@ -157,7 +158,7 @@ main {
         background: #fafafa;
         border-radius: 15px;
         position: relative;
-        padding: 20px;
+
         -webkit-box-shadow: 0px 50px 71px -23px #999;
         -moz-box-shadow: 0px 50px 71px -23px #999;
         box-shadow: 0px 50px 71px -23px #999;
